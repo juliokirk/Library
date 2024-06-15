@@ -22,6 +22,15 @@ public class Book {
         this.year = year;
     };
     
+
+    /*  Setters */
+
+    public void setTitle(String newTitle){
+        this.title = newTitle;
+    }
+
+    /*  Getters */
+
     public String getTitle(){
         return this.title;
     }
@@ -41,6 +50,8 @@ public class Book {
     public int getYear(){
         return this.year;
     }
+
+
     
     @Override
     public String toString() {
