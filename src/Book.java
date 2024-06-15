@@ -14,6 +14,7 @@ public class Book {
     private int numPages;
     private int year;
     
+
     public Book(String title, String author, String publisher, int numPages, int year){
         this.title = title;
         this.author = author;
@@ -25,9 +26,26 @@ public class Book {
 
     /*  Setters */
 
-    public void setTitle(String newTitle){
-        this.title = newTitle;
+    public void setTitle(String title){
+        this.title = title;
     }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
+    }
+
+    public void setNumPages(int numPages) {
+        this.numPages = numPages;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
 
     /*  Getters */
 
