@@ -23,8 +23,26 @@ public class Author {
         this.shortBio = "We still don't have a bio for this author!";    
     }
 
+    /*  Setters */
+
     public void setShortBio(String shortBio){
         this.shortBio = shortBio;
     }
+
+    public void setYearOfDeath(String yearOfDeath){
+        this.yearOfDeath = yearOfDeath;
+    }
+    
+
+    /*  Getters */
+    
+    public String getFirstName(String firstName){
+        return this.firstName;
+    }
+    
+    public String getLastName(String lastName){
+        return this.lastName;
+    }
+    
     
 }
